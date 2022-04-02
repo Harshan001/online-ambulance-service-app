@@ -1,0 +1,29 @@
+
+.menu 
+{
+	height:80px;
+	border:0px solid red;
+	margin-top:25px;
+	background-color:#888888
+        
+}
+.one,.second
+{
+	list-style:none;
+}
+.one .li,.second .li
+{
+	float:left;
+	padding:18px;
+	font-family:Time Roman; 
+	font-size:26px;
+	margin-left::-10px;
+}
+.li:hover
+{
+	box-shadow:0px 0px 10px  #FFEBCD ;
+	-moz-transform:rotateY(-360deg);
+	transition:2s; 
+}
+
+
